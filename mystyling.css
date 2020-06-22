@@ -1,0 +1,58 @@
+/* specify here the look of things */
+
+body {
+ background-color: #94a3da;
+ margin-left: 0px;
+}
+
+.localCanvas{
+  width: 50%;
+  float: left;
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+  -moz-transform:rotateY(180deg); /* Firefox */
+  clip-path: polygon(5% 100%, 8% 47%, 16% 47%, 16% 42%, 11% 24%, 12% 9%, 17% 2%, 29% 2%, 33% 9%, 36% 24%, 32% 41%, 32% 47%, 40% 47%, 50% 100%)
+
+}
+
+
+.partnerCanvas{
+  width: 50%;
+  float: left;
+  opacity: 1;
+  clip-path: polygon(5% 100%, 8% 47%, 16% 47%, 16% 42%, 11% 24%, 12% 9%, 17% 2%, 29% 2%, 33% 9%, 36% 24%, 32% 41%, 32% 47%, 40% 47%, 50% 100%)
+}
+
+.achtergrond{
+  padding-top: 150px;
+  margin-bottom: 100px;
+  background-image: url(airplane.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-position: bottom;
+
+  height: 768px;
+  width: 1366px;
+}
+.wall{
+  height: 700px;
+  padding-top: 237px;
+  padding-bottom: 0px;
+
+}
+
+.bottomBar{
+  text-align: center;
+}
+
+footer{
+  height: 50px;
+}
+
+
+.controls {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}

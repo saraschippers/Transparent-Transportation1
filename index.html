@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Together but Alone</title>
+
+    <script src="libs/jquery-2.1.1.min.js"></script>
+     <script src="libs/strophe/strophe.js"></script>
+     <script src="libs/strophe/strophe.disco.min.js?v=1"></script>
+     <script src="libs/lib-jitsi-meet.min.js"></script>
+     <script src="libs/canvasmask.js"></script>
+     <script src="libs/p5.js"></script>
+     <script src="libs/p5.min.js"></script>
+     <script src="libs/p5.sound.js"></script>
+     <script src="libs/p5.sound.min.js"></script>
+
+     <!-- <script type="text/javascript" src="../libs/seriously.js"></script>
+     <script type="text/javascript" src="../libs/effects/seriously.blur.js"></script>
+     <script type="text/javascript" src="../libs/effects/seriously.chroma.js"></script>
+ 		 <script type="text/javascript" src="../libs/effects/seriously.lumakey.js"></script> -->
+
+     <script src="example.js" ></script>
+
+    <!--the styling of the page is defined here. -->
+    <link rel="stylesheet" type="text/css" href="mystyling.css">
+
+</head>
+
+<body>
+  <!-- Slider to demonstrate -->
+  <div class="achtergrond">
+
+    <div class="wall">
+        <!-- In here the video's will appear -->
+    </div>
+
+    <div class="bottomBar">
+      <div id="audioOutputSelectWrapper" style="display: none;">
+          Change audio output device
+          <select id="audioOutputSelect" onchange="changeAudioOutput(this)"></select>
+      </div>
+      <div class="controls">
+          <a href="#" onclick="unload()">Unload</a>
+          <a href="#" onclick="switchVideo()">switchVideo</a>
+      </div>
+    </div>
+
+  </div>
+
+    <!-- Needs to be called at the end to override what was before -->
+    <script type="text/javascript" src="sketch.js"></script>
+    <!-- <script type="text/javascript" src="microphoneInput.js"></script> -->
+</body>
+
+<footer>
+
+</footer>
+</html>
