@@ -32,7 +32,26 @@
 
     <div class="wall">
         <!-- In here the video's will appear -->
+        <svg height="0" width="0">
+            <defs>
+                <clipPath id="svgPath" >
+                  <path fill="#FFFFFF"  d="M228,121.3h-18.4l-9.9-13.4c16.8-9.5,30.3-35,30.3-54.3C230,24,206,0,176.4,0s-53.7,24-53.7,53.7
+                  	c0,19.9,12.4,46.1,30,55.4l-8,12.3h-20c-21.4,0-38.8,17.3-38.8,38.8l0,0l29.3,132.6h121.9l29.7-132.6
+                  	C266.8,138.7,249.5,121.3,228,121.3C228.1,121.3,228,121.3,228,121.3z M683,292.8l-683,0l0,0L683,292.8L683,292.8z"/>
+                </clipPath>
+            </defs>
+        </svg>
+        <svg height="0" width="0">
+            <defs>
+                <clipPath id="svgPathPartner" >
+                  <path fill="#FFFFFF" d="M228,121.3h-18.4l-9.9-13.4c16.8-9.5,30.3-35,30.3-54.3C230,24,206,0,176.4,0s-53.7,24-53.7,53.7
+                  	c0,19.9,12.4,46.1,30,55.4l-8,12.3h-20c-21.4,0-38.8,17.3-38.8,38.8l0,0l29.3,132.6h121.9l29.7-132.6
+                  	C266.8,138.7,249.5,121.3,228,121.3C228.1,121.3,228,121.3,228,121.3z M683,292.8l-683,0l0,0L683,292.8L683,292.8z"/>
+                </clipPath>
+            </defs>
+        </svg>
     </div>
+
 
     <div class="bottomBar">
       <div id="audioOutputSelectWrapper" style="display: none;">
@@ -40,8 +59,8 @@
           <select id="audioOutputSelect" onchange="changeAudioOutput(this)"></select>
       </div>
       <div class="controls">
-          <a href="#" onclick="unload()">Unload</a>
-          <a href="#" onclick="switchVideo()">switchVideo</a>
+          <a class ="offboard" href="#" onclick="unload()">Unload screen</a>
+          <!-- <a href="#" onclick="switchVideo()">switchVideo</a> -->
       </div>
     </div>
 
@@ -51,8 +70,4 @@
     <script type="text/javascript" src="sketch.js"></script>
     <!-- <script type="text/javascript" src="microphoneInput.js"></script> -->
 </body>
-
-<footer>
-
-</footer>
 </html>

@@ -1,57 +1,68 @@
 /* specify here the look of things */
 
 body {
- background-color: #94a3da;
- margin-left: 0px;
+ background-color: #b6ae9c;
+ margin: 0px;
+
 }
 
 .localCanvas{
-  width: 50%;
+  width: 683px;
   float: left;
   transform: rotateY(180deg);
   -webkit-transform:rotateY(180deg); /* Safari and Chrome */
   -moz-transform:rotateY(180deg); /* Firefox */
-  clip-path: polygon(5% 100%, 8% 47%, 16% 47%, 16% 42%, 11% 24%, 12% 9%, 17% 2%, 29% 2%, 33% 9%, 36% 24%, 32% 41%, 32% 47%, 40% 47%, 50% 100%)
+  /* clip-path: polygon(5% 100%, 8% 47%, 16% 47%, 16% 42%, 11% 24%, 12% 9%, 17% 2%, 29% 2%, 33% 9%, 36% 24%, 32% 41%, 32% 47%, 40% 47%, 50% 100%); */
+  clip-path: url(#svgPath);
 
+  position: absolute;
+  top: 189px;
+  left: 8px;
 }
+
 
 
 .partnerCanvas{
-  width: 50%;
+  width: 683px;
   float: left;
   opacity: 1;
-  clip-path: polygon(5% 100%, 8% 47%, 16% 47%, 16% 42%, 11% 24%, 12% 9%, 17% 2%, 29% 2%, 33% 9%, 36% 24%, 32% 41%, 32% 47%, 40% 47%, 50% 100%)
+  /* clip-path: polygon(5% 100%, 8% 47%, 16% 47%, 16% 42%, 11% 24%, 12% 9%, 17% 2%, 29% 2%, 33% 9%, 36% 24%, 32% 41%, 32% 47%, 40% 47%, 50% 100%); */
+  clip-path: url(#svgPathPartner);
+  position: absolute;
+  top: 182px;
+  left: 682px;
 }
 
+
+
 .achtergrond{
-  padding-top: 150px;
-  margin-bottom: 100px;
-  background-image: url(airplane.jpeg);
+  /* margin-bottom: 100px;
+  margin-right: 20px; */
+  background-image: url(background3.jpg);
   background-repeat: no-repeat;
   background-size: 100% ;
   background-position: bottom;
-
   height: 768px;
   width: 1366px;
 }
 .wall{
-  height: 700px;
-  padding-top: 237px;
-  padding-bottom: 0px;
-
+  /* 768 min padding top */
+  height: 648px;
+  padding-top: 120px;
+  padding-bottom: 15px;
 }
 
 .bottomBar{
   text-align: center;
 }
-
-footer{
-  height: 50px;
+.offboard{
+color: #aea694;
 }
 
 
 .controls {
   position: absolute;
+  float: left;
   width: 100%;
   text-align: center;
   padding: 10px;
