@@ -1,7 +1,7 @@
 /* specify here the look of things */
 
 body {
- background-color: #b6ae9c;
+ background-color: #dcd4c1;
  margin: 0px;
 
 }
@@ -20,8 +20,6 @@ body {
   left: 8px;
 }
 
-
-
 .partnerCanvas{
   width: 683px;
   float: left;
@@ -38,13 +36,15 @@ body {
 .achtergrond{
   /* margin-bottom: 100px;
   margin-right: 20px; */
-  background-image: url(background3.jpg);
+  background-image: url(background3copy.png);
   background-repeat: no-repeat;
   background-size: 100% ;
   background-position: bottom;
   height: 768px;
   width: 1366px;
 }
+
+
 .wall{
   /* 768 min padding top */
   height: 648px;
@@ -55,6 +55,7 @@ body {
 .bottomBar{
   text-align: center;
 }
+
 .offboard{
 color: #aea694;
 }
@@ -66,4 +67,94 @@ color: #aea694;
   width: 100%;
   text-align: center;
   padding: 10px;
+}
+
+.takeOffButton {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 4px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.16, rgb(207, 207, 207)), color-stop(0.79, rgb(252, 252, 252)));
+  background-image: -moz-linear-gradient(center bottom, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+  background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+  padding: 3px;
+  border: 0.5px solid #6f6f6f;
+  color: black;
+  text-decoration: none;
+  font-size: 10px !important;
+}
+
+.box {
+  top: 533px;
+  left: 45px;
+  width: 300px;
+  margin: 50px auto;
+  background: #869cb7;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: arial;
+  position: absolute;
+}
+
+.sb3:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #869cb7;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #869cb7;
+  border-bottom: 10px solid transparent;
+  left: 19px;
+  bottom: -19px;
+
+}
+
+.filter-drop-shadow {
+		-webkit-filter: drop-shadow(1px 7px 6px rgba(0,0,0,.5)));
+		-moz-filter: drop-shadow(1px 7px 6px rgba(0,0,0,.5)));
+		-ms-filter: drop-shadow(1px 7px 6px rgba(0,0,0,.5));
+		-o-filter: drop-shadow(1px 7px 6px rgba(0,0,0,.5));
+		filter: drop-shadow(1px 7px 6px rgba(0,0,0,.5));
+		}
+
+.box2 {
+  /* width: 200px; */
+  opacity: 50%;
+  margin: 50px auto;
+  background: #bbac8c;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: arial;
+  font-size: 12px;
+  position: absolute;
+  left: 1105px;
+  top: -31px;
+  display: none;
+}
+
+.sb12:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 30px solid #bbac8c;
+  border-right: 30px solid transparent;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  right: -60px;
+  top: -1px;
+
+}
+
+.box2:hover{
+  opacity: 100%;
+  border-width: 4px;
+  background-color: #bbac8c;
 }

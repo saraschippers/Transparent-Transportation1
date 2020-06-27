@@ -48,3 +48,14 @@ function mouseClicked(){
     getAudioContext().resume();
   }
 }
+
+
+// function myFunction() {
+//   console.log("button Clicked");
+//   var x = document.createElement("BUTTON");
+//   var t = document.createTextNode("Click me");
+//   x.appendChild(t);
+//   // document.body.appendChild(x);
+//
+//   $( '.informationSign' ).append(x);
+// }
